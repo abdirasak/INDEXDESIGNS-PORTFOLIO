@@ -9,11 +9,12 @@ export interface ProjectCardProps extends React.HTMLAttributes<HTMLDivElement> {
   link: string;
   linkText?: string;
   tags?: string[];
+  onClick?: () => void;
 }
 
 const ProjectCard = React.forwardRef<HTMLDivElement, ProjectCardProps>(
   (
-    { className, imgSrc, title, description, link, linkText = "View Project", tags = [], ...props },
+    { className, imgSrc, title, description, link, linkText = "View Project", tags = [], onClick, ...props },
     ref
   ) => {
     return (
@@ -23,6 +24,7 @@ const ProjectCard = React.forwardRef<HTMLDivElement, ProjectCardProps>(
           "group relative flex cursor-pointer flex-col overflow-hidden rounded-2xl border border-green/10 bg-dark-2 text-cream shadow-sm transition-all duration-500 ease-in-out hover:-translate-y-2 hover:border-green/30 hover:shadow-xl hover:shadow-green/5",
           className
         )}
+        onClick={onClick}
         {...props}
       >
         {/* Image */}
@@ -55,7 +57,7 @@ const ProjectCard = React.forwardRef<HTMLDivElement, ProjectCardProps>(
             {title}
           </h3>
           <p className="mt-3 flex-1 text-cream-dim text-sm leading-relaxed font-dm">
-            {description}
+            {description.length > 150 ? description.slice(0, 150).trimEnd() + '…' : description}
           </p>
 
           {/* CTA */}

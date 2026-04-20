@@ -41,8 +41,8 @@ export default function Navbar() {
               src="/logo-v2.png"
               alt="Index Designs"
               width={380}
-              height={120}
-              className="h-[120px] w-auto object-contain"
+              height={130}
+              className="h-[130px] w-auto object-contain"
               priority
             />
           </a>
@@ -53,7 +53,7 @@ export default function Navbar() {
               <a
                 key={link.label}
                 href={link.href}
-                className="text-cream-dim hover:text-cream text-sm font-syne font-medium transition-colors hover-line"
+                className="text-cream-dim hover:text-cream text-base font-syne font-medium transition-colors hover-line"
               >
                 {link.label}
               </a>
@@ -63,7 +63,7 @@ export default function Navbar() {
           {/* CTA */}
           <a
             href="#contact"
-            className="hidden md:inline-flex items-center gap-2 bg-green text-dark px-5 py-2.5 text-xs font-syne font-bold uppercase tracking-wider hover:bg-cream transition-colors rounded-sm"
+            className="hidden md:inline-flex items-center gap-2 bg-green text-dark px-5 py-2.5 text-xs font-syne font-bold uppercase tracking-wider hover:bg-cream transition-all rounded-sm shadow-[0_0_18px_4px_#A2F24B73] hover:shadow-[0_0_26px_7px_#A2F24B99]"
           >
             Let&apos;s Talk
           </a>
