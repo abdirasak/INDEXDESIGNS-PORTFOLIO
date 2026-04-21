@@ -7,17 +7,17 @@ import { ArrowUp } from 'lucide-react'
 const contactInfo = [
   {
     label: 'Email',
-    value: 'hello@indexdesigns.com',
-    href: 'mailto:hello@indexdesigns.com',
+    value: 'info@indexdesigns.co.uk',
+    href: 'mailto:info@indexdesigns.co.uk',
   },
   {
     label: 'Phone',
-    value: '+1 (555) 234-5678',
-    href: 'tel:+15552345678',
+    value: '+44 7520 672900',
+    href: 'tel:+447520672900',
   },
   {
     label: 'Location',
-    value: 'New York, NY — Remote Worldwide',
+    value: 'Leicester, UK — Remote Worldwide',
     href: '#',
   },
 ]
@@ -95,12 +95,12 @@ export default function Contact() {
                     <span className="w-1.5 h-1.5 rounded-full bg-green/50 group-hover:bg-green transition-colors" />
                   </div>
                   <div>
-                    <div className="text-[10px] text-cream-dim font-syne tracking-[0.25em] uppercase mb-0.5">
+                    <div className="text-xs text-cream-dim font-syne tracking-[0.25em] uppercase mb-0.5">
                       {item.label}
                     </div>
                     <a
                       href={item.href}
-                      className="text-cream font-syne text-sm hover:text-green transition-colors"
+                      className="text-cream font-syne text-base hover:text-green transition-colors"
                     >
                       {item.value}
                     </a>

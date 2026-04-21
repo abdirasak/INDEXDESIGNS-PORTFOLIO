@@ -45,33 +45,6 @@ const projects: ProjectModalData[] = [
     githubLink: 'https://moonconstruction.so/',
     linkLabel: 'Visit Site',
   },
-  {
-    imgSrc: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800&q=80',
-    title: 'Pulse Finance',
-    description:
-      'A beautifully designed personal finance app with budgeting tools, investment tracking, and biometric auth.',
-    tags: ['React Native', 'Expo', 'Plaid'],
-    category: 'Mobile App',
-    githubLink: '#',
-  },
-  {
-    imgSrc: 'https://images.unsplash.com/photo-1576153192396-180ecef2a715?w=800&q=80',
-    title: 'Orbit SaaS',
-    description:
-      'A scalable B2B SaaS platform with role-based access, team collaboration tools, and custom onboarding flows.',
-    tags: ['TypeScript', 'PostgreSQL', 'Redis'],
-    category: 'Web Development',
-    githubLink: '#',
-  },
-  {
-    imgSrc: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80',
-    title: 'Nova Mobile App',
-    description:
-      'A cross-platform productivity app with offline-first sync, push notifications, and a clean minimalist UI.',
-    tags: ['React Native', 'TypeScript', 'Firebase'],
-    category: 'Mobile App',
-    githubLink: '#',
-  },
 ]
 
 const TABS: { label: string; value: ProjectCategory | 'All' }[] = [
