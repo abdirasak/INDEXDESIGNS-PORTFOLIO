@@ -38,8 +38,8 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#home" className="flex items-center">
             <Image
-              src="/logo-v2.png"
-              alt="Index Designs"
+              src="/Ilaysdesigns_logo (1).png"
+              alt="Ilays Designs"
               width={380}
               height={130}
               className="h-[130px] w-auto object-contain"

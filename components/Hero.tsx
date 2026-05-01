@@ -20,7 +20,7 @@ export default function Hero() {
       >
         <span className="w-1.5 h-1.5 rounded-full bg-green animate-pulse" />
         <span className="text-xs font-syne font-semibold text-cream tracking-widest uppercase">
-          Available for Projects
+          Now Taking New Clients
         </span>
       </motion.div>
 
@@ -34,7 +34,7 @@ export default function Hero() {
           transition={{ delay: 0.1, duration: 0.6 }}
           className="section-tag mb-6 justify-center"
         >
-          Freelance Fullstack Developer
+          Web & Mobile App Development Agency
         </motion.div>
 
         {/* Heading — single line reveal */}
@@ -97,7 +97,7 @@ export default function Hero() {
               transition={{ delay: 0.7, duration: 0.8 }}
               className="text-cream-dim text-sm lg:text-base leading-relaxed max-w-md mb-7"
             >
-              A freelance fullstack developer crafting fast, beautiful digital experiences
+              A dedicated agency crafting fast, beautiful web and mobile app experiences
               that drive real results and leave lasting impressions.
             </motion.p>
 

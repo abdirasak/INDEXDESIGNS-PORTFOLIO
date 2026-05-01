@@ -17,7 +17,7 @@ const services: Service[] = [
   {
     title: 'Web Development',
     description: 'High-performance sites and apps built with Next.js, React, and TypeScript.',
-    detail: 'I build fast, scalable, and accessible websites and web applications from the ground up. Every project is architected for performance — optimised load times, clean code, and seamless user experiences across all devices and browsers.',
+    detail: 'We build fast, scalable, and accessible websites and web applications from the ground up. Every project is architected for performance — optimised load times, clean code, and seamless user experiences across all devices and browsers.',
     bullets: [
       'Custom Next.js & React applications',
       'REST & GraphQL API integration',
@@ -31,7 +31,7 @@ const services: Service[] = [
   {
     title: 'UI / UX Design',
     description: 'User-centered interfaces that balance aesthetics, function, and conversion.',
-    detail: 'Great design is more than aesthetics — it\'s a strategy. I craft intuitive interfaces grounded in user research and data, ensuring every interaction feels effortless while driving measurable business outcomes.',
+    detail: 'Great design is more than aesthetics — it\'s a strategy. We craft intuitive interfaces grounded in user research and data, ensuring every interaction feels effortless while driving measurable business outcomes.',
     bullets: [
       'Wireframing & interactive prototyping',
       'Design systems & component libraries',
@@ -45,7 +45,7 @@ const services: Service[] = [
   {
     title: 'Mobile App',
     description: 'Cross-platform mobile applications delivering seamless iOS and Android experiences.',
-    detail: 'Using React Native, I build cross-platform mobile apps that look and feel native on both iOS and Android — sharing a single codebase without compromising on performance or user experience.',
+    detail: 'Using React Native, we build cross-platform mobile apps that look and feel native on both iOS and Android — sharing a single codebase without compromising on performance or user experience.',
     bullets: [
       'React Native cross-platform development',
       'iOS & Android app store publishing',
@@ -59,7 +59,7 @@ const services: Service[] = [
   {
     title: 'SEO Optimization',
     description: 'Data-driven SEO strategies that boost rankings, drive traffic, and grow revenue.',
-    detail: 'I implement technical and content SEO strategies that get your site found. From structured data and Core Web Vitals to keyword strategy and link architecture — I help you rank higher and convert more.',
+    detail: 'We implement technical and content SEO strategies that get your site found. From structured data and Core Web Vitals to keyword strategy and link architecture — we help you rank higher and convert more.',
     bullets: [
       'Technical SEO audits & fixes',
       'Core Web Vitals & page speed optimisation',
@@ -73,7 +73,7 @@ const services: Service[] = [
   {
     title: 'Brand Identity',
     description: 'Complete brand systems — from logo to visual guidelines — built to last.',
-    detail: 'Your brand is your first impression. I create cohesive visual identities that communicate your values, build trust, and stand out in a crowded market — from logo design to full brand guidelines.',
+    detail: 'Your brand is your first impression. We create cohesive visual identities that communicate your values, build trust, and stand out in a crowded market — from logo design to full brand guidelines.',
     bullets: [
       'Logo design & brand mark creation',
       'Typography & colour palette systems',
@@ -87,7 +87,7 @@ const services: Service[] = [
   {
     title: 'E-Commerce',
     description: 'End-to-end online stores with optimised checkout flows and secure payment integration.',
-    detail: 'I build e-commerce experiences that convert browsers into buyers. From product catalogues and inventory management to checkout optimisation and payment gateways — I deliver stores that are fast, secure, and built to scale.',
+    detail: 'We build e-commerce experiences that convert browsers into buyers. From product catalogues and inventory management to checkout optimisation and payment gateways — we deliver stores that are fast, secure, and built to scale.',
     bullets: [
       'Custom Shopify & WooCommerce builds',
       'Stripe, PayPal & payment gateway integration',
@@ -117,9 +117,9 @@ export default function Services() {
             transition={{ duration: 0.7 }}
             className="text-center mb-14"
           >
-            <div className="section-tag mb-4 justify-center">What I Do</div>
+            <div className="section-tag mb-4 justify-center">What We Do</div>
             <h2 className="font-lora font-bold text-4xl sm:text-5xl lg:text-6xl text-cream tracking-tight mb-4">
-              How Can I Help?
+              How Can We Help?
             </h2>
             <p className="text-cream-dim text-lg font-dm font-light">
               Let&apos;s turn your vision into something extraordinary.

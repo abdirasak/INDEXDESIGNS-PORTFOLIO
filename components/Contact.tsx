@@ -82,8 +82,8 @@ export default function Contact() {
               transition={{ delay: 0.2 }}
               className="text-cream-dim leading-relaxed text-sm lg:text-base mb-12"
             >
-              Have a project in mind? I&apos;d love to hear about it. Let&apos;s discuss how I
-              can help bring your vision to life — from concept to launch.
+              Have a project in mind? We&apos;d love to hear about it. Let&apos;s discuss how our
+              team can help bring your vision to life — from concept to launch.
             </motion.p>
 
             {/* Contact details */}

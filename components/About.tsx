@@ -96,7 +96,7 @@ export default function About() {
               transition={{ duration: 0.6 }}
               className="section-tag mb-5"
             >
-              About Me
+              About Us
             </motion.div>
 
             <motion.h2
@@ -105,7 +105,7 @@ export default function About() {
               transition={{ duration: 0.9, delay: 0.1 }}
               className="font-lora font-bold text-4xl lg:text-5xl text-cream leading-tight mb-6"
             >
-              About <span className="text-green">Me</span>
+              About <span className="text-green">Us</span>
             </motion.h2>
 
             <motion.p
@@ -114,10 +114,10 @@ export default function About() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-cream-dim leading-relaxed text-sm lg:text-base mb-4"
             >
-              I don&apos;t just write code; I build digital experiences that stick. With over five
-              years of experience as a freelance fullstack developer, I&apos;ve mastered the art of
-              bridging the gap between high-end aesthetics and hardcore engineering. To me, a website
-              shouldn&apos;t just exist in a browser — it should be a carefully crafted tool that
+              We don&apos;t just write code; we build digital experiences that stick. With over five
+              years of experience as a web and mobile app development agency, we&apos;ve mastered the art of
+              bridging the gap between high-end aesthetics and hardcore engineering. To us, a website
+              or app shouldn&apos;t just exist — it should be a carefully crafted tool that
               moves the needle for your business.
             </motion.p>
 
@@ -127,7 +127,7 @@ export default function About() {
               transition={{ duration: 0.8, delay: 0.26 }}
               className="text-cream font-syne font-semibold text-sm lg:text-base mb-3"
             >
-              Why Partner With Me?
+              Why Partner With Us?
             </motion.p>
 
             <motion.p
@@ -137,7 +137,7 @@ export default function About() {
               className="text-cream-dim leading-relaxed text-sm lg:text-base mb-5"
             >
               Whether you&apos;re an early-stage startup looking to disrupt the market or an
-              established brand ready for a digital evolution, I help visionary clients turn
+              established brand ready for a digital evolution, we help visionary clients turn
               &ldquo;what if&rdquo; into &ldquo;what&apos;s next.&rdquo;
             </motion.p>
 
@@ -151,8 +151,8 @@ export default function About() {
               {[
                 { label: 'Design-Led Engineering', body: 'Beautiful interfaces powered by bulletproof logic.' },
                 { label: 'Performance-First Mindset', body: "If it isn't fast and functional, it isn't finished." },
-                { label: 'Visionary Collaboration', body: "I don't just work for you; I partner with you to refine your digital presence." },
-                { label: 'The Gold Standard', body: 'Every project I take on is driven by a commitment to 100% customer satisfaction. If you aren\'t thrilled with the final product, my job isn\'t done.' },
+                { label: 'Visionary Collaboration', body: "We don't just work for you; we partner with you to refine your digital presence." },
+                { label: 'The Gold Standard', body: 'Every project we take on is driven by a commitment to 100% customer satisfaction. If you aren\'t thrilled with the final product, our job isn\'t done.' },
               ].map((item) => (
                 <div key={item.label} className="flex gap-3">
                   <span className="text-green mt-1 shrink-0">✦</span>
