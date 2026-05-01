@@ -45,6 +45,14 @@ const projects: ProjectModalData[] = [
     githubLink: 'https://moonconstruction.so/',
     linkLabel: 'Visit Site',
   },
+  {
+    imgSrc: '/projects/Hadef.png',
+    title: 'Hadef',
+    description:
+      'A youth nonprofit website designed to connect teenagers aged 12–18 with free community programs focused on mentorship, sports, creative arts, and academic achievement. The site tells the organization\'s story through a compelling hero section, an about/mission area, a programs showcase, a projects carousel, and an impact metrics section — all anchored by a contact area that lets visitors get in touch or get involved directly.',
+    tags: ['React', 'Vite', 'Tailwind CSS', 'Framer Motion', 'Radix UI', 'React Hook Form', 'Zod', 'Wouter'],
+    category: 'Web Development',
+  },
 ]
 
 const TABS: { label: string; value: ProjectCategory | 'All' }[] = [

@@ -1,7 +1,7 @@
 'use client'
 
 import { motion, useInView, AnimatePresence } from 'framer-motion'
-import { useRef, useState } from 'react'
+import { useRef, useState, useEffect } from 'react'
 import { ArrowUp } from 'lucide-react'
 
 const contactInfo = [
@@ -37,10 +37,15 @@ const services = [
 export default function Contact() {
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-80px' })
-  const sectionRef = useRef(null)
-  const sectionInView = useInView(sectionRef, { once: false, margin: '0px' })
   const [form, setForm] = useState({ name: '', email: '', service: '', budget: '', message: '' })
   const [sent, setSent] = useState(false)
+  const [showTop, setShowTop] = useState(false)
+
+  useEffect(() => {
+    const onScroll = () => setShowTop(window.scrollY > window.innerHeight * 0.9)
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
@@ -48,7 +53,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" ref={sectionRef} className="py-24 lg:py-36 px-6 lg:px-14 grid-bg">
+    <section id="contact" className="py-24 lg:py-36 px-6 lg:px-14 grid-bg">
       <div className="max-w-7xl mx-auto" ref={ref}>
         <div className="grid lg:grid-cols-2 gap-14 lg:gap-24">
           {/* Left — info */}
@@ -237,7 +242,7 @@ export default function Contact() {
 
       {/* Go to top — visible only when contact section is in view */}
       <AnimatePresence>
-        {sectionInView && (
+        {showTop && (
           <motion.button
             initial={{ opacity: 0, scale: 0.7 }}
             animate={{ opacity: 1, scale: 1 }}
